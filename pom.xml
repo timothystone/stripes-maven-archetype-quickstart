@@ -18,11 +18,15 @@
     </parent>
     <licenses>
         <license>
-            <name>GNU General Public License, version 2 (GPL-2.0)</name>
-            <url>http://www.opensource.org/licenses/GPL-2.0</url>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
             <distribution>repo</distribution>
             <comments>
-                The General Public License applies to most of the Free Software Foundation's software.
+                All software produced by the ASF or any of its projects or subjects is licensed according to the 
+                terms of the Apache License. Some non-ASF software is also licensed using the Apache License. 
+                As of November 2010, over 6000 projects located at SourceForge.net were available under the terms of 
+                the Apache License. In a blog post from May 2008 Google mentioned that 25,000 out of the 100,000 
+                projects then hosted on Google Code were using the Apache License.
             </comments>
         </license>
     </licenses>
