@@ -1,1 +1,17 @@
 ==Stripes Maven Archetype Quickstart==
+
+From the command line, Maven properly installed, execute the following:
+
+ mvn archetype:generate \
+ -DarchetypeArtifactId=stripes-archetype-quickstart \
+ -DarchetypeGroupId=net.sourceforge.stripes \
+ -DarchetypeVersion=1.5.6 \
+ -DgroupId=org.foobar \
+ -DartifactId=quickstart \
+ -DarchetypeRepository=https://oss.sonatype.org/content/repositories/releases
+
+IDEs that support archetype catalogs, or loading of local or remote archetypes, can also be helpful. Most IDEs support integrated containers for deployment and testing. The Jetty support has been removed.
+
+Release and feature versions of the quickstart archetype are available. 
+
+Simply replace <code>-DarchetypeVersion</code> with <code>1.5.7-SNAPSHOT</code> or <code>1.6.0-SNAPSHOT</code> as desired. This will load preconfigured archetypes supporting the upcoming releases.
