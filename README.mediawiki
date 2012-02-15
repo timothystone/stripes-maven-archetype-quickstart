@@ -2,15 +2,15 @@
 
 From the command line, Maven properly installed, execute the following:
 
-<code>
-mvn archetype:generate \<br>
--DarchetypeArtifactId=stripes-archetype-quickstart \<br>
--DarchetypeGroupId=net.sourceforge.stripes \<br>
--DarchetypeVersion=1.5.6 \<br>
--DgroupId=org.foobar \<br>
--DartifactId=quickstart \<br>
+ <nowiki>
+mvn archetype:generate \
+-DarchetypeArtifactId=stripes-archetype-quickstart \
+-DarchetypeGroupId=net.sourceforge.stripes \
+-DarchetypeVersion=1.5.6 \
+-DgroupId=org.foobar \
+-DartifactId=quickstart \
 -DarchetypeRepository=https://oss.sonatype.org/content/repositories/releases
-</code>
+</nowiki>
 
 IDEs that support archetype catalogs, or loading of local or remote archetypes, can also be helpful. Most IDEs support integrated containers for deployment and testing. The Jetty support has been removed.
 
