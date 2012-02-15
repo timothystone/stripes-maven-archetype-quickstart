@@ -9,8 +9,7 @@ mvn archetype:generate \
 -DarchetypeVersion=1.5.6 \
 -DgroupId=org.foobar \
 -DartifactId=quickstart \
--DarchetypeRepository=https://oss.sonatype.org/content/repositories/releases
-</nowiki>
+-DarchetypeRepository=https://oss.sonatype.org/content/repositories/releases</nowiki>
 
 IDEs that support archetype catalogs, or loading of local or remote archetypes, can also be helpful. Most IDEs support integrated containers for deployment and testing. The Jetty support has been removed.
 
