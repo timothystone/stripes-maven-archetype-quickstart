@@ -3,12 +3,12 @@
 From the command line, Maven properly installed, execute the following:
 
 <code>
-mvn archetype:generate \
--DarchetypeArtifactId=stripes-archetype-quickstart \
--DarchetypeGroupId=net.sourceforge.stripes \
--DarchetypeVersion=1.5.6 \
--DgroupId=org.foobar \
--DartifactId=quickstart \
+mvn archetype:generate \<br>
+-DarchetypeArtifactId=stripes-archetype-quickstart \<br>
+-DarchetypeGroupId=net.sourceforge.stripes \<br>
+-DarchetypeVersion=1.5.6 \<br>
+-DgroupId=org.foobar \<br>
+-DartifactId=quickstart \<br>
 -DarchetypeRepository=https://oss.sonatype.org/content/repositories/releases
 </code>
 
