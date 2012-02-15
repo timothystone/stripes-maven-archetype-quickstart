@@ -2,8 +2,7 @@
 
 From the command line, Maven properly installed, execute the following:
 
- <nowiki>
-mvn archetype:generate \
+ <nowiki>mvn archetype:generate \
 -DarchetypeArtifactId=stripes-archetype-quickstart \
 -DarchetypeGroupId=net.sourceforge.stripes \
 -DarchetypeVersion=1.5.6 \
